@@ -1,2 +1,7 @@
 title: Default D8 Setup
 description: Default drupal 8 stack
+variables:
+  VIRTUAL_HOST:
+    default: d8.docksal
+    title: Default url
+    description: Set a url for access your project
