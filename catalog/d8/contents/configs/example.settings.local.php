@@ -123,8 +123,8 @@ $settings['update_free_access'] = TRUE;
 # Docker DB connection settings.
 $databases['default']['default'] = array (
   'database' => 'website',
-  'username' => 'user',
-  'password' => 'user',
+  'username' => 'root',
+  'password' => 'root',
   'host' => 'db',
   'driver' => 'mysql',
 );
