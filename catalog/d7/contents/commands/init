@@ -41,7 +41,7 @@ copy_settings_file()
 # Initialize local settings files
 init_settings ()
 {
-  copy_settings_file "configs/example.settings.local.php" "${SITEDIR_PATH}/settings.local.php"
+  copy_settings_file "${PROJECT_ROOT}/configs/example.settings.local.php" "${SITEDIR_PATH}/settings.local.php"
 }
 
 # Fix file/folder permissions
