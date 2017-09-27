@@ -1,8 +1,8 @@
-title: Default D8 Setup
-description: Default drupal 8 stack
+title: Default Shopware Setup
+description: Default Shopware stack
 variables:
   VIRTUAL_HOST:
-    default: d8.docksal
+    default: shopware.docksal
     title: Default url
     description: Set a url for access your project
   DOCROOT:
