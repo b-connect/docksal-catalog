@@ -12,6 +12,7 @@ set -e
 SITE_DIRECTORY="default"
 DOCROOT_PATH="${PROJECT_ROOT}/${DOCROOT}"
 SITEDIR_PATH="${DOCROOT_PATH}/sites/${SITE_DIRECTORY}"
+CONFIG_PATH="${PROJECT_ROOT}/.docksal/configs"
 
 #-------------------------- END: Settings --------------------------------
 
@@ -41,7 +42,7 @@ copy_settings_file()
 # Initialize local settings files
 init_settings ()
 {
-  copy_settings_file "${PROJECT_ROOT}/configs/example.settings.local.php" "${SITEDIR_PATH}/settings.local.php"
+  copy_settings_file "${CONFIG_PATH}/example.settings.local.php" "${SITEDIR_PATH}/settings.local.php"
 }
 
 # Fix file/folder permissions
