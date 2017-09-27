@@ -4,8 +4,8 @@
 $databases['default']['default'] = array (
   'driver' => 'mysql',
   'database' => 'default',
-  'username' => 'user',
-  'password' => 'user',
+  'username' => 'root',
+  'password' => 'root',
   'host' => 'db',
   'charset' => 'utf8mb4',
   'collation' => 'utf8mb4_general_ci'
