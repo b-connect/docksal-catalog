@@ -3,7 +3,7 @@
 # Docksal DB connection settings.
 $databases['default']['default'] = array (
   'driver' => 'mysql',
-  'database' => 'default',
+  'database' => 'website',
   'username' => 'root',
   'password' => 'root',
   'host' => 'db',
