@@ -43,8 +43,8 @@ copy_settings_file()
 init_settings ()
 {
   copy_settings_file "${CONFIG_PATH}/example.settings.local.php" "${SITEDIR_PATH}/settings.local.php"
-  copy_settings_file "${SITEDIR_PATH}/default.settings.php" "${SITEDIR_PATH}/settings.php"
-  echo "if (file_exists(\$app_root . '/' . \$site_path . '/settings.local.php')) {include \$app_root . '/' . \$site_path . '/settings.local.php';}" >> "${SITEDIR_PATH}/settings.php"
+  copy_settings_file "${CONFIG_PATH}/default.settings.php" "${SITEDIR_PATH}/settings.php"
+  copy_settings_file "${CONFIG_PATH}/default.services.yml" "${SITEDIR_PATH}/services.yml"
 }
 
 # Fix file/folder permissions
