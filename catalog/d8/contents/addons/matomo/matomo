@@ -107,7 +107,7 @@ matomo_enable ()
 	yml_add_service "$matomo_YML"
 	# Apply stack changes.
 	fin up
-	echo "See documentation for more details: http://docs.docksal.io/en/master/tools/apache-matomo"
+	echo "See documentation for more details: https://matomo.org/"
 }
 
 # Disable container and settings
