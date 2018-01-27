@@ -7,7 +7,7 @@
       - matomo_db
   matomo_db:
     image: mysql:5.6
-    environemnt:
+    environment:
       - MYSQL_ROOT_PASSWORD=matomo
       - MYSQL_DATABASE=matomo
       - MYSQL_USER=matomo
