@@ -14,12 +14,12 @@ MYSQL_HOST="matomo_db"
 MYSQL_PASSWORD="matomo"
 MYSQL_TABLE_PREFIX="matomo_"
 
-SITE_NAME="Default+website"
+SITE_NAME="${VIRTUAL_HOST}"
 SUPERUSER="admin"
 SUPERUSER_PASSWORD="secret"
 SUPERUSER_EMAIL="piwik@example.com"
 ENCODED_SITE_URL="https%3A%2F%2F${VIRTUAL_HOST}%2F"
-TIMEZONE="Europe%2FAmsterdam"
+TIMEZONE="Europe%Berlin"
 
 
 
